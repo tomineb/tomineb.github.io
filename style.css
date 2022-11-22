@@ -1,6 +1,21 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
     color: black; 
+    margin-top: 5%; 
+    margin-left: 3%; 
+    display: block; 
+    width: 39%; 
+
+}
+
+#main, #main2, #main3, #main4 {
+    margin: 8%; 
+}
+
+#all {
+    display: flex;
+    flex-direction: column; 
+    
 }
 
 #nav {
@@ -9,15 +24,54 @@ body {
 }
 
 #main-about {
-    display: none; 
+    display: block; 
+    cursor: pointer; 
+    font-weight: bold;
+     
 }
 
-#main-info {
+#about {
+    margin-left: 3%;   
+}
+
+#main-projects{
+    cursor: pointer; 
+    font-weight: bold;
+
+}
+
+#projects {
     margin-left: 3%; 
 }
+
+#main-contact {
+    cursor: pointer; 
+    font-weight: bold; 
+
+}
+
+#contact {
+    margin-left: 3%; 
+}
+
+#linkedin :any-link {
+    color: gray; 
+
+}
+#main-info {
+    font-weight: bold; 
+    
+}
+
+#info {
+    margin-left: 3%; 
+    
+}
+
 a{
     text-decoration: none;
-    
+
+
 }
 a :active {
     color: black;
