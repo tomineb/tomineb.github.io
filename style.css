@@ -7,6 +7,14 @@ body {
     text-decoration: none;
     
 }
+
+#main-about {
+    display: none; 
+}
+
+#main-info {
+    margin-left: 3%; 
+}
 a{
     text-decoration: none;
     
