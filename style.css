@@ -1,15 +1,17 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
-    color: black; 
-    margin-top: 5%; 
-    margin-left: 3%; 
+    color: rgb(94, 66, 46); 
+    margin-top: 12%; 
+    margin-left: 15%; 
     display: block; 
     width: 39%; 
+    font-size: 18px; 
+    background-color: rgba(250, 226, 226, 0.333); 
 
 }
 
 #main, #main2, #main3, #main4 {
-    margin: 8%; 
+    margin: 4%; 
 }
 
 #all {
@@ -31,26 +33,31 @@ body {
 }
 
 #about {
+    display: none; 
     margin-left: 3%;   
 }
 
 #main-projects{
+    display: block; 
     cursor: pointer; 
     font-weight: bold;
 
 }
 
 #projects {
+    display: none; 
     margin-left: 3%; 
 }
 
 #main-contact {
+    display: block; 
     cursor: pointer; 
     font-weight: bold; 
 
 }
 
 #contact {
+    display: none; 
     margin-left: 3%; 
 }
 

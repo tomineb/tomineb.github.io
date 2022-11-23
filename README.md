@@ -1,2 +1,2 @@
 # tomineb.github.io
-this is my website, kindof. 
+this is my website, kind of. 
