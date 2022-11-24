@@ -1,14 +1,21 @@
+:root {
+    --main-color: rgb(94, 66, 46); 
+}
+
+    
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
-    color: rgb(94, 66, 46); 
+    color: var(--main-color);
     margin-top: 12%; 
     margin-left: 15%; 
     display: block; 
     width: 39%; 
     font-size: 18px; 
-    background-color: rgba(250, 226, 226, 0.333); 
+   /* background-color: rgba(250, 226, 226, 0.333); */
+
 
 }
+
 
 #main, #main2, #main3, #main4 {
     margin: 4%; 
@@ -25,12 +32,22 @@ body {
     
 }
 
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+
+}
+
 #main-about {
     display: block; 
     cursor: pointer; 
     font-weight: bold;
+    animation: fadeIn 4s; 
+
      
 }
+
+
 
 #about {
     display: none; 
@@ -41,7 +58,7 @@ body {
     display: block; 
     cursor: pointer; 
     font-weight: bold;
-
+    animation: fadeIn 5s; 
 }
 
 #projects {
@@ -53,6 +70,7 @@ body {
     display: block; 
     cursor: pointer; 
     font-weight: bold; 
+    animation: fadeIn 6s; 
 
 }
 
@@ -62,25 +80,35 @@ body {
 }
 
 #linkedin :any-link {
-    color: gray; 
+    color: black; 
 
 }
 #main-info {
     font-weight: bold; 
+    animation: fadeIn 3s; 
     
 }
+
+
 
 #info {
     margin-left: 3%; 
+    animation: fadeIn 3s; 
     
 }
 
-a{
-    text-decoration: none;
-
-
+#linkedin:hover {
+    font-style: italic;
 }
-a :active {
-    color: black;
+
+a {
+    text-decoration: none;
+    font-weight: bold; 
+}
+a:hover, :visited, :active{
+    color: var(--main-color);
+    
+    
+    
 
 }
