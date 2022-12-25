@@ -35,14 +35,14 @@ function makeVisibleTwo() {
          projects.style.display = "block"; 
      }
      
-     else if (setDisplay == "block") {
+    else if (setDisplay == "block") {
          projects.style.display = "none"; 
      }
- 
-     
+
      else {
          projects.style.display = "block"; 
      }
+     
  } 
 
  function makeVisibleThree() {

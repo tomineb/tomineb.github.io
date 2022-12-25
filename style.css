@@ -1,117 +1,67 @@
 :root {
     --main-color: rgb(94, 66, 46); 
+    --second: rgb(50, 216, 194); 
 }
 
+body{
     
-body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif; 
-    color: var(--main-color);
-    margin-top: 12%; 
-    margin-left: 15%; 
-    display: block; 
-    width: 39%; 
-    font-size: 18px; 
-   /* background-color: rgba(250, 226, 226, 0.333); */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+    font-size: 22px; 
+    margin-left: 2%; 
 
 
 }
 
-#nav-main {
-    
+#header {
+    font-size: 25px; 
+    text-align: left;
 }
-
-#main, #main2, #main3, #main4 {
-    margin: 4%; 
-}
-
-#all {
-    display: flex;
-    flex-direction: column; 
-    
-}
-
-#nav {
-    text-decoration: none;
-    
-}
-
-@keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-
-}
-
-#main-about {
-    display: block; 
-    cursor: pointer; 
-    font-weight: bold;
-    animation: fadeIn 4s; 
-
-     
-}
-
-
-
-#about {
-    display: none; 
-    margin-left: 3%;   
-}
-
-#main-projects{
-    display: block; 
-    cursor: pointer; 
-    font-weight: bold;
-    animation: fadeIn 5s; 
-}
-
-#projects {
-    display: none; 
-    margin-left: 3%; 
-}
-
-#main-contact {
-    display: block; 
-    cursor: pointer; 
-    font-weight: bold; 
-    animation: fadeIn 6s; 
-
-}
-
-#contact {
-    display: none; 
-    margin-left: 3%; 
-}
-
-#linkedin :any-link {
-    color: black; 
-
-}
-#main-info {
-    font-weight: bold; 
-    animation: fadeIn 3s; 
-    
-}
-
-
-
 #info {
-    margin-left: 3%; 
-    animation: fadeIn 3s; 
+    width: 50%; 
+   
+
+
+}
+#flexbox{
+    display: flex; 
+    position: relative; 
+    flex-direction: column;
     
+
+
 }
 
-#linkedin:hover {
-    font-style: italic;
+a:hover, :visited, :active{
+    color: blue;
+    
 }
 
 a {
+    
     text-decoration: none;
     font-weight: bold; 
+    
+    
 }
-a:hover, :visited, :active{
-    color: var(--main-color);
-    
-    
-    
 
+.flex2{
+    
+}
+
+footer{
+    position: absolute; 
+    left: 0; 
+    bottom: 0; 
+    width: 100%; 
+    text-align: center; 
+    font-size: 14px; 
+
+    
+}
+
+#flexbox {
+    display: flex; 
+    position: relative;
+    top: 10%;
+    font-size: 100px; 
 }
